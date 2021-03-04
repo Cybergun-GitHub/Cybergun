@@ -31,6 +31,7 @@ List of Commands:
     of potential passwords for the program to work with. You can either
     create one and put it in the pwlist parameter, or if you find one online,
     you can download it and type the file path into the pwlistpath parameter.
+    When typing urls, please omit anything before the website name (e.g. if the url is https://www.amazon.com, type it as amazon.com).
 
     phish(victim, domain, email_address): Function that will phish for the victim's personal
     information. Type the account name and the domain it is from inside the
