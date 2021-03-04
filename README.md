@@ -50,5 +50,6 @@ List of Commands:
 
     Additional notes:
     
-    1. Spelling DOES matter for EVERY parameter. You are essentially telling the program what it's got to work with, and it cannot auto-correct if you make a mistake in your spelling. The only exception would be with the password lists in the hack() function, but with every other parameter you MUST check your spelling before pressing enter.
-    2. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah.
+    1. Spelling DOES matter for EVERY parameter. You are essentially telling the program what it's got to work with, and it cannot auto-correct if you make a mistake in your spelling.
+    2. This program performs hybrid attacks - when you provide the list of passwords, it will use them, then start playing around with the characters. If all else fails, the program will run a pure brute-force attack for some time, and if that doesn't work, it will print "Attempt failed."
+    3. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah.
