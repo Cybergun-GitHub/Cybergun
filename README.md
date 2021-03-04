@@ -14,19 +14,22 @@ to reload the program.
 
 List of Commands:
 
-    hack(victim, domain, email_address, action, loan_amount, loanto, pwlist, pwlistpath):
+    hack(victim, domain, email_address, action, loan_amount, loanto=(username, domain, email_address), pwlist, pwlistpath):
     Function that tells the program to break into the victim's account.
     Inside the parentheses, list a string with the account name of the victim,
     then type the name of the domain (website url) the account is from inside another
-    string, and then list the victim's email address inside the third argument,
-    then type one of the following words (inside a string): "loan," where you
+    string, and then list the victim's email address inside the third argument. In the fourth argument, list a keyword.
+    One built-in keyword is "loan," where you are able to draw money from the victim's account into another account.
     Another built-in you can use is "pi_theft," which will tell the
     program to steal the victim's personal information, or "destroy," which
     will delete all files and apps from the victim's device and replace them
-    with malware. If you are using "purchase," provide the url to the item you want to purchase, and add another url to the place you want the item delivered to.       Lastly, you must include a potential password or an entire list
+    with malware. When using "loan," provide the account you want to transfer the money to (useful mostly when you are hired and your client wants to steal money).     Lastly, you must include a potential password or an entire list
     of potential passwords for the program to work with. You can either
-    create one and put it in the pwlist parameter, or if you find one online,
-    you can download it and type the file path into the pwlistpath parameter.
+    create one inside the program:
+    >>> listname=['string1', 'string2', 'string3'...]
+    >>> #This is how you create a list in Python, so you can apply this code snippet anywhere in Python.
+    and put it in the pwlist parameter, or you can create/find a file,
+    and download it and type the file path into the pwlistpath parameter. Preferred file type is .txt or .lst.
     When typing urls, please omit anything before the website name (e.g. if the url is https://www.amazon.com, type it as amazon.com).
 
     phish(victim, domain, email_address): Function that will phish for the victim's personal
@@ -34,7 +37,7 @@ List of Commands:
     parentheses (both in strings). This function is essentially the same as
     "pi_theft," but it doesn't use account hacking to retrieve information.
     You may have to wait a long time, as this function depends on the
-    victim's response.
+    victim's response. This function uses scam emails.
 
     Additional notes:
     
