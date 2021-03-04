@@ -2,8 +2,16 @@
 Before you start, you must fill out this form: https://docs.google.com/forms/d/e/1FAIpQLSemQ3ur3DwjZadAmKFWUdnCO2LlRBZ_rkM4Ux9otS0wnTLqCA/viewform
 
 All you really need is a [Python](python.org) shell (3.9.1) and the file. Use the import keyword to import the program into the shell.
-If anything happens that shuts you out, use import importlib and then
-importlib.reload() to reload the program.
+
+>>> import AutoHacker as ah
+Note: The "as" part is not necessary, but if you want to save yourself some typing you should add it.
+
+If you get locked out, use this code snippet:
+
+>>> import importlib
+>>> importlib.reload(ah)
+
+to reload the program.
 
 List of Commands:
 
@@ -39,3 +47,8 @@ List of Commands:
     "pi_theft," but it doesn't use account hacking to retrieve information.
     You may have to wait a long time, as this function depends on the
     victim's response.
+
+    Additional notes:
+    
+    1. Spelling DOES matter for EVERY parameter. You are essentially telling the program what it's got to work with, and it cannot auto-correct if you make a mistake in your spelling. The only exception would be with the password lists in the hack() function, but with every other parameter you MUST check your spelling before pressing enter.
+    2. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah.
