@@ -40,5 +40,5 @@ List of Commands:
 
     Additional notes:
      
-    1. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah.
+    1. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah
     2. This program is pretty young, so any suggestions welcome!
