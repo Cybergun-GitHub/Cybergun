@@ -37,6 +37,9 @@ List of Commands:
     "pi_theft," but it doesn't use account hacking to retrieve information.
     You may have to wait a long time, as this function depends on the
     victim's response. This function uses scam emails.
+    
+Examples:
+    >>> #Not filled in yet. Fill in later.
 
     Additional notes:
      
