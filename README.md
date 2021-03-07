@@ -1,14 +1,14 @@
-# AutoHacker
+# Cybergun
 
 All you really need is a [Python](python.org) shell (3.9.1) and the file. Use the import keyword to import the program into the shell.
 
->>> import AutoHacker as ah
+>>> import Cybergun as cg
 Note: The "as" part is not necessary, but if you want to save yourself some typing you should add it.
 
 If you get locked out, use this code snippet:
 
 >>> import importlib
->>> importlib.reload(ah)
+>>> importlib.reload(cg)
 
 to reload the program.
 
