@@ -43,6 +43,8 @@ Examples:
 
     Additional notes:
      
-    1. If you want to run AutoHacker in the command prompt, open it and type "python," then when it opens, type import AutoHacker as ah
+    1. If you want to run Cybergun in the command prompt, open it and type "python," then when it opens, type import Cybergun as cg
     2. Cannot hack phones or local accounts (was not designed for that).
-    3. This program is pretty young, so any suggestions welcome!
+    3. If you have any ideas, feel free to tell us.
+
+Happy Cybergunning!
