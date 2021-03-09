@@ -35,6 +35,21 @@ List of Commands:
     You may have to wait a long time, as this function depends on the
     victim's response. This function uses scam emails.
     
+    
+Cybergun Pros and Cons:
+
+Pros:
+1. Fast
+2. Easy to use
+3. Can hack, phish, or upload malware to the victim's device
+4. Uses a variety of attacks
+5. Completely anonymous
+
+Cons:
+1. Cannot hack local accounts or phones
+2. Low user interactivity level
+
+
 Examples:
     >>> #Not filled in yet. Fill in later.
 
@@ -42,7 +57,6 @@ Examples:
      
     1. If you want to run Cybergun in the command prompt, open it and type "python," then when it opens, type import Cybergun as cg
     2. Cannot hack phones or local accounts (was not designed for that).
-    3. "Destroy" keyword will send malware via the victim's email. A
-    4. If you have any ideas, feel free to tell us.
+    3. If you have any ideas, feel free to tell us.
 
 Happy Cybergunning!
