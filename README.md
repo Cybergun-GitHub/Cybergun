@@ -45,6 +45,9 @@ Cons:
 Examples:
 >>> #Not filled in yet. Fill in later.
 
+Some password lists you may want to use:
+listname=['qwerty', 'qwerty123', 'abc123', 'password', 'password123', *name of victim*]
+
 Additional notes:
 
 1. If you want to run Cybergun in the command prompt, open it and type "python," then when it opens, type import Cybergun as cg
