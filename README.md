@@ -5,13 +5,6 @@ All you really need is a [Python](python.org) shell (3.9.1) and the file. Use th
 >>> import Cybergun as cg
 Note: The "as" part is not necessary, but if you want to save yourself some typing you should add it.
 
-If you get locked out, use this code snippet:
-
->>> import importlib
->>> importlib.reload(cg)
-
-to reload the program.
-
 List of Commands:
 
 hack(victim, domain, email_address, action, loan_amount, loanto=(username, domain, email_address), pwlist, pwlistpath):
@@ -42,6 +35,7 @@ Pros:
 3. Can hack, phish, or upload malware to the victim's device
 4. Uses a variety of attacks
 5. Completely anonymous
+6. Can hack on practically any website (English only)
 
 Cons:
 1. Cannot hack local accounts or phones
