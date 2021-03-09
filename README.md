@@ -21,19 +21,17 @@ List of Commands:
     string, and then list the victim's email address inside the third argument. In the fourth argument, list a keyword.
     One built-in keyword is "loan," where you are able to draw money from the victim's account into another account.
     Another built-in you can use is "pi_theft," which will tell the
-    program to steal the victim's personal information. When using "loan," provide the account you want to transfer the money to (useful mostly when you are hired and your client wants to steal money).     Lastly, you must include a potential password or an entire list
+    program to steal the victim's personal information. When using "loan," provide the account you want to transfer the money to (useful mostly when you are hired and your client wants to steal money). Lastly, you must include a list
     of potential passwords for the program to work with. You can either
     create one inside the program:
     >>> listname=['string1', 'string2', 'string3'...]
     >>> #This is how you create a list in Python, so you can apply this code snippet anywhere in Python.
     and put it in the pwlist parameter.
 
-    phish(victim, domain, email_address): Function that will phish for the victim's personal
+    phish(victim, domain, email_address, phish_type): Function that will phish for the victim's personal
     information. Type the account name and the domain it is from inside the
-    parentheses (both in strings). This function is essentially the same as
-    "pi_theft," but it doesn't use account hacking to retrieve information.
-    You may have to wait a long time, as this function depends on the
-    victim's response. This function uses scam emails.
+    parentheses (both in strings). Also list the email address of the victim, and type either "phish" or "destroy" into the last parameter. "phish" will send a scareware email to the victim, and the victim is supposed to provide their information to "verufy their account." "destroy" will send a malware email which will infect the device the victim is using. You may have to wait a long time, as this function depends on the
+    victim's response.
     
     
 Cybergun Pros and Cons:
