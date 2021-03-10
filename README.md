@@ -7,7 +7,7 @@ Note: The "as" part is not necessary, but if you want to save yourself some typi
 
 List of Commands:
 
-hack(victim, domain, email_address, action, loan_amount, loanto=(username, domain, email_address), pwlist, pwlistpath):
+hack(victim, domain, email_address, action, loan_amount, loantoemail, pwlist, pwlistpath):
 Function that tells the program to break into the victim's account.
 Inside the parentheses, list a string with the account name of the victim,
 then type the name of the domain (website url) the account is from inside another
@@ -43,10 +43,10 @@ Cons:
 
 Examples:
 >>> #Hack examples:
->>> hack('Bob123', 'https://paypal.com', 'Bob123@yahoo.com', 'loan', 
->>> #Not finished yet.
+>>> hack('Bob123', 'https://paypal.com', 'Bob123@yahoo.com', 'loan', '10000', 'jack12345@yahoo.com', ['qwerty', 'abcde', 'qwerty123'])
+>>> #Unfinished.
 
-Some password lists you may want to use:
+Some passwords you may want to use:
 listname=['qwerty', 'qwerty123', 'abc123', 'password', 'password123', *name of victim*]
 
 Additional notes:
