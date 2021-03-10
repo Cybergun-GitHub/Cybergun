@@ -35,7 +35,6 @@ Pros:
 3. Can hack, phish, or upload malware to the victim's device
 4. Uses a variety of attacks
 5. Completely anonymous
-6. Can hack on practically any website (English only)
 
 Cons:
 1. Cannot hack local accounts or phones
@@ -43,7 +42,9 @@ Cons:
 
 
 Examples:
->>> #Not filled in yet. Fill in later.
+>>> #Hack examples:
+>>> hack('Bob123', 'https://paypal.com', 'Bob123@yahoo.com', 'loan', 
+>>> #Not finished yet.
 
 Some password lists you may want to use:
 listname=['qwerty', 'qwerty123', 'abc123', 'password', 'password123', *name of victim*]
@@ -51,8 +52,17 @@ listname=['qwerty', 'qwerty123', 'abc123', 'password', 'password123', *name of v
 Additional notes:
 
 1. If you want to run Cybergun in the command prompt, open it and type "python," then when it opens, type import Cybergun as cg
-2. The command will sometimes print "Syntax error", meaning you entered the command incorrectly. No further details will be given, as the error recognition code is rather simple. However, you must include the victim's username, the domain (website url), the email address, one action keyword (you can type None if you don't want to use any of the actions), and, if you are using action='loan', type the amount (in US dollars) you want to extract, and then type the username, domain, and email address you want to transfer the money to. You must also provide a password or a password list. Follow these instructions, and you should not get a syntax error message. If you encounter any problems, please state so in the "Issues" section or the "Discussions" section.
-3. If you have any other ideas, feel free to tell us.
+2. This program can hack accounts on any of the following:
+    1. Google
+    2. Yahoo
+    3. Microsoft
+    4. Paypal
+    5. Facebook
+    6. Twitter
+    7. Youtube
+    8. Instagram
+4. The command will sometimes print "Syntax error", meaning you entered the command incorrectly. No further details will be given, as the error recognition code is rather simple. However, you must include the victim's username, the domain (website url), the email address, one action keyword (you can type None if you don't want to use any of the actions), and, if you are using action='loan', type the amount (in US dollars) you want to extract, and then type the username, domain, and email address you want to transfer the money to. You must also provide a password or a password list. Follow these instructions, and you should not get a syntax error message. If you encounter any problems, please state so in the "Issues" section or the "Discussions" section.
+5. If you have any other ideas, feel free to tell us.
 
 Happy Cybergunning!
 /̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
