@@ -34,13 +34,13 @@ Pros:
 2. Easy to use
 3. Can hack, phish, or upload malware to the victim's device
 4. Uses a variety of attacks
-5. Completely anonymous
+5. Completely anonymous. (Some features are not. If you wish to remain anonymous, only use them when hired.)
 6. Can hack 2 factor authentication (see cons)
 
 Cons:
 1. Cannot hack local accounts or phones
 2. Does not work offline
-3. Can only hack certain types of 2fa accounts
+3. Can only hack certain types of 2fa accounts - security key and verification code. You must provide that information for the program.
 
 
 Examples:
