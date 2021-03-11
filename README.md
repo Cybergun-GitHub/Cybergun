@@ -40,7 +40,7 @@ Pros:
 Cons:
 1. Cannot hack local accounts or phones
 2. Does not work offline
-3. Can only hack certain types of 2fa accounts - security key and verification code. You must provide that information for the program.
+3. Can only hack certain types of 2fa accounts - security key. You must provide that information for the program.
 
 
 Examples:
