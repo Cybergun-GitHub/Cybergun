@@ -1,5 +1,7 @@
 # Cybergun
 
+TEMPORARY NOTE: THIS REPOSITORY IS NOT READY YET. IT SHOULD BE READY SOON, THOUGH.
+
 All you really need is a [Python](python.org) shell (3.9.1) and the file. Use the import keyword to import the program into the shell.
 
 >>> import Cybergun as cg
