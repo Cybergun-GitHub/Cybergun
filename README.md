@@ -7,7 +7,7 @@ Note: The "as" part is not necessary, but if you want to save yourself some typi
 
 List of Commands:
 
-hack(victim, domain, email_address, action, loan_amount, loantoemail, pwlist, pwlistpath):
+hack(victim, domain, email_address, action, loan_amount, loantoemail, pwlist,):
 Function that tells the program to break into the victim's account.
 Inside the parentheses, list a string with the account name of the victim,
 then type the name of the domain (website url) the account is from inside another
