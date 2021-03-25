@@ -19,8 +19,8 @@ Additional notes:
     8. Instagram
 3. This program is not related to cybergun.com or anything else named Cybergun.
 4. You cannot use variables as your password list. It is first come, first served. Copy and paste a list if you want to use it again.
-5. The command will sometimes print "Syntax error", meaning you entered the command incorrectly. No further details will be given, as the error recognition code is rather simple. However, you must include the victim's username, the domain (website url), the email address, one action keyword (you can type None if you don't want to use any of the actions), and, if you are using action='loan', type the amount (in US dollars) you want to extract, and then type the username, domain, and email address you want to transfer the money to. You must also provide a password or a password list. Follow these instructions, and you should not get a syntax error message. If you encounter any problems, please state so in the "Issues" section or the "Discussions" section.
-6. If you have any other ideas, feel free to tell us.
+5. The command will sometimes print "Syntax error", meaning you entered the command incorrectly. No further details will be given, as the error recognition code is rather simple. However, you must include the victim's username, the domain (website url), the email address, one action keyword (you can type None if you don't want to use any of the actions), and, if you are using 'loan', type the amount (in US dollars) you want to extract, and then type the email address you want to transfer the money to. You must also provide a password list. Follow these instructions, and you should not get a syntax error message. If you encounter any problems, please state so in the "Issues" section or the "Discussions" section.
+6. If you have any ideas, feel free to say so.
 
 Happy Cybergunning!
 /̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
