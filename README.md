@@ -1,6 +1,6 @@
 # Cybergun
 
-INSTRUCTIONS FOR WINDOWS: Download the zip file, go to the folder, click on the file that says "Cybergun", copy the path. You may need to copy the items in the folder to another folder before you can copy the path. Once you do so, open the command prompt and paste the file path. You may need to diable your antivirus software to run the program.
+INSTRUCTIONS FOR WINDOWS: Download the zip file, go to the folder, click on the file that says "Cybergun", copy the path. You may need to copy the items in the folder to another folder before you can copy the path. Once you do so, open the command prompt and paste the file path. You may need to disable your antivirus software to run the program.
 
 When you run the program, it will first ask you to enter a command. Type "hack" or "phish", or type "quit" to exit. Typing "help" will just print out the link to this repository.
 The program will then ask you a few more questions. When it asks for a password list (it will only do so if you typed "hack" at the beginning), type it out in this format: [itema, itemb, itemc, etc].
