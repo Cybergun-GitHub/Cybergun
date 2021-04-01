@@ -7,7 +7,7 @@ The program will then ask you a few more questions. When it asks for a password 
 
 The two keywords in this program are 'loan' and 'pi_theft'. 'Loan' will automatically withdraw a user-defined amount of money from the victim's account, and 'pi_theft' will find and print out the victim's information. If you don't want to use either of these and just want the password, type 'None'.
 
-Additional notes:
+Additional notes (PLEASE READ):
 
 1. This program can hack accounts on any of the following:
     1. Google
